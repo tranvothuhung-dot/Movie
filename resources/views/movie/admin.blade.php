@@ -24,7 +24,7 @@
         <h2 class="text-center mb-4">DANH SÁCH PHIM</h2>
         
         {{-- Nút thêm phim trỏ đến route create ở Câu 4 --}}
-        <a href="#" class="btn btn-success">
+        <a href="{{ route('movie.create') }}" class="btn btn-success">
             <i class="fa fa-plus"></i> Thêm
         </a>
 
@@ -36,7 +36,7 @@
         <th style="width: 30%;">Giới thiệu</th>
         <th style="width: 15%;">Ngày phát hành</th>
         <th style="width: 10%;">Điểm đánh giá</th>
-        <th style="width: 15%;">Hành động</th>
+        <th style="width: 15%;"></th>
     </tr>
 </thead>
             <tbody>

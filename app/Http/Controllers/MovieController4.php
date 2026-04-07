@@ -59,6 +59,6 @@ class MovieController4 extends Controller
             'status'        => 1, 
         ]);
 
-        return redirect()->back()->with('success', 'Thêm phim thành công!');
+        return redirect()->route('admin.index')->with('success', 'Thêm phim mới thành công!');
     }
 }
