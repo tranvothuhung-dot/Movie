@@ -54,7 +54,7 @@
                     <td class="text-center" style="vertical-align: middle; width: 15%;">
     <div class="d-flex justify-content-center align-items-center gap-1">
         {{-- Nút Xem --}}
-        <a href="#" class="btn btn-primary btn-sm px-2" style="font-size: 12px; min-width: 45px;">Xem</a> 
+        <a href="{{ route('movie.detail', $item->id) }}" class="btn btn-primary btn-sm px-2" style="font-size: 12px; min-width: 45px;">Xem</a> 
         {{-- Nút Xóa --}}
         <a href="{{ route('admin.delete', $item->id) }}" 
            class="btn btn-danger btn-sm px-2" 
